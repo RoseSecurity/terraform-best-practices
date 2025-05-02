@@ -19,7 +19,7 @@ indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
 
-[*.tf]
+[*.{tf,tfvars}]
 indent_style = space
 indent_size = 2
 
@@ -55,7 +55,7 @@ resource "aws_instance" "this" {
 }
 ```
 
-**Section Headers**: Delimit section headers in code with `# -----` for clarity.
+**Section Headers**: Delimit section headers in code with `# -----` or `######` for clarity.
 
 **Example:**
 
